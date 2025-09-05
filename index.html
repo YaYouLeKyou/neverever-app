@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Never Have I Ever</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <p id="question-text">Never have I ever...</p>
+        </div>
+        <div id="choices" class="hidden">
+            <span class="drink-text">Drink or</span>
+            <button id="do-button">Do</button>
+        </div>
+        <button id="next-question">Next Question</button>
+    </div>
+
+    <div id="action-modal" class="modal hidden">
+        <div class="modal-content">
+            <p id="action-text"></p>
+            <button id="close-modal">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
